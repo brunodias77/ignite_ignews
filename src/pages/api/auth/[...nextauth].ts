@@ -12,6 +12,7 @@ export default NextAuth({
     async signIn(user) {
       console.log("aqui fdp");
       console.log(user);
+      console.log("estou aqui mane !");
       return true;
     },
   },
